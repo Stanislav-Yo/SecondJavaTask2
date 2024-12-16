@@ -11,12 +11,9 @@ public class Main {
             bonus = topUp / 100;
         } else {
             bonus = 0;
-            }
+        }
         int finaleBalance = balance + topUp + bonus;
         System.out.println("Бонус за мили: " + bonus);
         System.out.println("Итоговый счёт: " + finaleBalance);
-
-        }
-
-
     }
+}
